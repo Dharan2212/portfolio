@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif, serif, revert;
+	box-sizing: border-box;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+
+/*************** header css *****************/
+
+.header{
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: navajowhite;
+	padding: 17px;
+	position: fixed;
+	z-index: 1000;
+	align-items: center;
+	text-align: center;
+	transition: 0.25s ease-in;
+}
+
+.header ul li{
+	display: inline-block;
+	padding-left: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.logo a{
+	color: ;
+	font-size: 35px;
+	font-weight: 500;
+	padding-right: 9em;
+}
+
+.nav-list a{
+	text-align: center;
+	color: red;
+}
+
+.active a{
+	background-color: dimgrey;
+	color: white;
+	padding: 14px 15px 14px 15px;
+	border-radius: 40px;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.nav-list a:hover{
+	color: black;
+	background-color: white;
+	padding: 20px 15px 20px 15px;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.active a:hover{
+	color: black;
+	background-color: yellow;
+	padding: 13px 20px 13px 20px;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;	
+}
+
+.active a img{
+	align-items: center;
+	padding-left: 5px;
+	width: 25px;
+	height: 25px;
+	margin-bottom: -5px;
+}
+
+/*************** home css *****************/
+
+.home-page{
+	width: 100%;
+	height: 100vh;
+	padding-top: 250px;
+}
+
+.home-page-content{
+	text-align: center;
+
+}
+
+.clr{
+	color: red;
+}
+
+.home-page-content h3{
+	text-align: justify;
+	padding-left: 290px;
+	font-size: 40px;
+}
+
+.home-page-content h1{
+	font-size: 90px;
+	font-weight: 600;
+}
+
+.home-page-content p{
+	text-align: center;
+	justify-content: revert;
+	padding: 0px 5em 0px 18em;
+	margin-bottom: 30px;
+}
+
+.home-page-content button{
+	padding: 14px 40px 14px 40px;
+	background-color: dimgrey;
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+	border-radius: 45px;
+	border: none;
+
+}
+
+.social-media a img{
+	width: 20px;
+	height: 22px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.home-page-content button:hover{
+	padding: 15px 42px 15px 42px;
+	background-color: yellow;
+	font-size: 14px;
+	font-weight: 700;
+	color: black;
+	border-radius: 45px;
+}
+
+.btn img{
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	margin-bottom: -5px;
+}
+
+/*************** about css *****************/
+
+.about-container{
+	width: 100%;
+	height: 100vh;
+	padding-top: 30px;
+}
+.head-text{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.about-container-block .abt-img{
+	float: right;
+	margin:-5% 10% 10% 5%;
+	border: 30px solid yellow;
+
+}
+
+.about-container-block .about-me{
+	margin: 10% 50% 5% 5%; 
+
+}
+
+.more-btn{
+	background-color: dimgrey;
+	color: white;
+	padding: 14px 15px 14px 15px;
+	border-radius: 40px;
+	font-weight: 600;
+	font-size: 15px;
+	margin-left: 450px;
+	margin-top: -180px;
+	border: none;
+}
+
+.more-btn img{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	margin-bottom: -6px;
+}
+
+.more-btn:hover{
+		color: black;
+	background-color: yellow;
+	padding: 13px 20px 13px 20px;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;	
+}
+
+/*************** projects css *****************/
+
+.head-text-pro{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 170px;
+	margin-bottom: 60px;
+}
+
+.project-block{
+	width: 100%;
+	height: 80vh;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.project-block .project-block-list{
+	display: flex;
+	gap: 50px;
+}
+
+.project-block-list img{
+	width: 400px;
+	height: 350px;
+
+}
+
+.project-block-list a img:hover{
+	width: 410px;
+	height: 360px;
+}
+
+/************* contact me section css **************/
+
+.contact-me-block{
+	width: 100%;
+	margin-top: 350px;
+	height: 90vh;
+}
+
+.contact-me-block-details{
+	
+
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	margin-left: 560px;
+	margin-top: 70px;
+}
+
+form label{
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+form input{
+	width: 300px;
+	margin-bottom: 20px;
+	padding: 12px;
+	border-radius: 40px;
+	font-size: 14px;
+}
+
+form .Message{
+	height: 70px;
+	border-radius: 1px;
+}
+
+form button{
+	width: 100px;
+	margin-bottom: 20px;
+	background-color: dimgrey;
+	color: white;
+	padding: 14px 15px 14px 15px;
+	border-radius: 40px;
+	font-weight: 600;
+	font-size: 15px;
+	border: none;
+}
+
+form button:hover{
+	color: black;
+	background-color: yellow;
+	font-size: 17px;
+	font-weight: 700;
+	text-align: center;
+	border: none;
+
+}
+
+footer{
+	text-align: center;
+	background-color: seagreen;
+	color: white;
+	padding: 13px;
+}
